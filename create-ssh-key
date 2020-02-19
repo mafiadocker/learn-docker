@@ -1,4 +1,7 @@
 cd ~/.ssh/ #pindah ke direktori ssh
 
 # membuat private key dan public key
-ssh-keygen -t rsa -C "dian@petanikode.com" -b 4096
+ssh-keygen -t rsa -C "<account email>" -b 4096
+
+#di dalam directory .ssh/ terdapat file id.rsa && id.rsa.pub
+copy isi file id.rsa.pub paste pada github
