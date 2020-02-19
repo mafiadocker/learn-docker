@@ -1,0 +1,4 @@
+cd ~/.ssh/ #pindah ke direktori ssh
+
+# membuat private key dan public key
+ssh-keygen -t rsa -C "dian@petanikode.com" -b 4096
